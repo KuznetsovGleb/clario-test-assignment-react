@@ -1,0 +1,53 @@
+.wrapper {
+  width: 100%;
+  max-width: 315px;
+  padding-top: 30%;
+}
+
+.title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #4a4e71;
+}
+
+.emailFormItem {
+  &:global(.ant-form-item-has-success .ant-input-outlined) {
+    border-color: #27b274;
+  }
+}
+.passwordFormItem {
+  :global(.ant-form-item-explain) {
+    display: none;
+  }
+  :global(.ant-input-suffix) {
+    color: #6f91bc;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  align-self: center;
+  width: 240px;
+  height: 48px;
+  background: linear-gradient(110.46deg, #70c3ff 12.27%, #4b65ff 93.92%);
+  border-radius: 30px;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14px;
+
+  &:global(.ant-btn-primary):hover {
+    background: linear-gradient(
+      110.46deg,
+      #70c3ff 12.27%,
+      #4b65ff 93.92%
+    ) !important;
+  }
+}

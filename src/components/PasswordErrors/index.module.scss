@@ -1,0 +1,20 @@
+.text {
+  margin: 0 0 4px;
+  padding-left: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #4a4e71;
+
+  &:last-child {
+    margin: 0 0 40px;
+  }
+}
+
+.error {
+  color: #ff8080;
+}
+
+.success {
+  color: #27b274b2;
+}
